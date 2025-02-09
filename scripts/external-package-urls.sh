@@ -11,22 +11,22 @@ files1=(
     #"libmbim|https://downloads.openwrt.org/snapshots/packages/$ARCH_3/packages"
     #"libqmi|https://downloads.openwrt.org/snapshots/packages/$ARCH_3/packages"
     "sms-tool|https://downloads.openwrt.org/snapshots/packages/$ARCH_3/packages"
-    "luci-proto-modemmanager|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/luci"
-    "luci-proto-mbim|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/luci"
-    "modemmanager|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/packages"
-    "libmbim|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/packages"
-    "libqmi|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/packages"
-    #"sms-tool|https://downloads.openwrt.org/releases/packages-23.05/$ARCH_3/packages"
+    "luci-proto-modemmanager|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/luci"
+    "luci-proto-mbim|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/luci"
+    "modemmanager|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/packages"
+    "libmbim|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/packages"
+    "libqmi|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/packages"
+    #"sms-tool|https://downloads.openwrt.org/releases/packages-24.10/$ARCH_3/packages"
     "luci-app-argon-config|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "luci-theme-argon|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "luci-app-cpu-status-mini|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "luci-app-diskman|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "luci-app-disks-info|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
-    "luci-app-log-viewer|https://fantastic-packages.github.io/packages/releases/23.05/packages/$ARCH_3/luci"
+    "luci-app-log-viewer|https://fantastic-packages.github.io/packages/releases/24.10/packages/$ARCH_3/luci"
     "luci-app-temp-status|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "luci-app-internet-detector|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "internet-detector|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/packages"
-    "internet-detector-mod-modem-restart|https://fantastic-packages.github.io/packages/releases/23.05/packages/$ARCH_3/packages"
+    "internet-detector-mod-modem-restart|https://fantastic-packages.github.io/packages/releases/24.10/packages/$ARCH_3/packages"
     "luci-app-netspeedtest|https://fantastic-packages.github.io/packages/releases/$(echo "$BRANCH" | cut -d'.' -f1-2)/packages/$ARCH_3/luci"
     "python3-speedtest-cli|https://downloads.openwrt.org/releases/packages-$(echo "$BRANCH" | cut -d'.' -f1-2)/$ARCH_3/packages"
     "librespeed-go|https://downloads.openwrt.org/releases/packages-$(echo "$BRANCH" | cut -d'.' -f1-2)/$ARCH_3/packages"
@@ -110,7 +110,7 @@ done
 
 # official and custom repo
 #{
-#BRANCH="23.05.3"
+#BRANCH="24.10.0"
 #ARCH_3="x86_64"
 #files1=(
 #    "sms-tool|https://downloads.openwrt.org/snapshots/packages/$ARCH_3/packages"
@@ -126,7 +126,7 @@ done
 
 # github release
 #{
-#BRANCH="23.05.3"
+#BRANCH="24.10.0"
 #ARCH_3="x86_64"
 #files2=(
 #    "luci-app-sms-tool-js|https://api.github.com/repos/4IceG/luci-app-sms-tool-js/releases"
